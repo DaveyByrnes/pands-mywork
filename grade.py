@@ -5,6 +5,9 @@
 percentage = float(input("Enter the percentage: "))
     #print(percentage)
 
+# extra: grades that get 69.5 get rounded to 70
+percentage = round(percentage) # rounds to the nearest whole number
+
 if percentage < 0 or percentage > 100:
     # error handling example
     print("Please enter a number between 0 and 100")
