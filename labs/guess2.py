@@ -4,7 +4,9 @@
 # user until the number is correctly guessed
 # author: David Byrne :)
 
-number_to_guess = 30
+import random
+
+number_to_guess = random.randint(1,100)
 
 guess = int(input("Please guess the number:"))
 while guess != number_to_guess:
